@@ -1,0 +1,184 @@
+body{
+  background-color: #f7f7f7;
+}
+.App {
+  text-align: center;
+}
+
+.App h1{
+  font-family: 'Black Ops One';
+  font-size: 35px;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #6d9886;
+  color: #f7f7f7;
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.dropzone:hover{
+  background-color: #f2e7d5;
+}
+
+.dropzone p {
+  font-size: 16px;
+  color: red;
+  font-family: "kanit", sans-serif;
+}
+
+.annotationLayer{
+  display: none;
+}
+
+.options{
+  display: none;
+}
+.pages_selection{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.page-selection{
+  margin: 10px 3px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+}
+
+.new_pdf{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #6d9886;
+  border-radius: 5px;
+  border: none;
+  color: #f7f7f7;
+}
+.new_pdf:hover{
+  background-color: #393e46;
+}
+.download_pdf{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #6d9886;
+  border-radius: 5px;
+  border: none;
+  color: #f7f7f7;
+}
+.download_pdf:hover{
+  background-color: #393e46;
+}
+.page-number{
+  font-family: "Libre Baskerville", serif;
+}
+.textLayer{
+  display: none;
+}
+.logout_btn{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #6d9886;
+}
+.logout_btn:hover{
+  background-color: #393e46;
+}
+.user_name{
+  position: absolute;
+  top: 16px;
+  right: 150px;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .dropzone p {
+    font-size: 14px;
+  }
+
+  .page-selection {
+    font-size: 14px;
+  }
+
+  .new_pdf,
+  .download_pdf {
+    font-size: 14px;
+  }
+  
+  .page-number {
+    font-size: 14px;
+  }
+
+  .user_name {
+    right: 10px;
+  }
+  /* Add this CSS to your existing styles */
+.option-menu {
+  position: relative;
+}
+
+.option-menu button {
+  background: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 40px; /* Adjust the distance from the button */
+  right: 0;
+  background-color: #f7f7f7;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: right;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-name {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.menu-dropdown button {
+  background: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: #6d9886;
+}
+
+.menu-dropdown button:hover {
+  text-decoration: underline;
+}
+.options{
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: black;
+}
+.user_name{
+  display: none;
+}
+.logout_btn{
+  display: none;
+}
+}

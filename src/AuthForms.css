@@ -1,0 +1,32 @@
+.hidden{
+    display: none;
+}
+span{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.register-form, .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+button{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3d6353;
+    color: white;
+}
+button:hover{
+    background-color: #6d9886;
+    cursor: pointer;
+}
