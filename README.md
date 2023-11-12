@@ -1,6 +1,6 @@
 # PDFExtractor
 Hello everyone,
-I'm here to help you to implement the #PDFExtractor project with existing files.
+I'm here to help you to implement the #PDFExtractor project with the files.
 I'll explain everything step-by-step.
 
 step 1: it is a create-react-app project
